@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+.container{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 110px;
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 850px;
+    padding-top: 10px;
+}
+.Home{
+    margin-right: 30px;
+}
+.New{
+    margin-right: 30px;
+}
+.Popular{
+    margin-right: 30px;
+}
+.Trending{
+    margin-right: 30px;
+}
+#txt{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+#txt:hover{
+    color: hsl(35, 77%, 62%);
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
+.div21{
+    display: flex;
+    flex-direction: column;
+    width: 953px;
+}
+.texte{
+    display: flex;
+}
+.question{
+    width: 45%;
+    font-size: xx-large;
+    /* background-color: green; */
+}
+.description{
+    margin-left: 90px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* background-color: aqua; */
+    justify-content: space-evenly;
+}
+.texte_description{
+    font-size: 22px;
+    color: hsl(236, 13%, 42%);
+}
+#button{
+    color: black;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+    letter-spacing: 5px;
+    border-radius: 0px;
+    width: 225px;
+    height: 50px;
+    object-fit: cover;
+    border-color: white;
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+}
+.button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.div22{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    background-color: hsl(240, 100%, 5%);
+    font-family: 'Inter', sans-serif;
+}
+.new{
+    color: hsl(35, 77%, 62%);  
+    font-size: large;
+    padding-left: 20px;
+}
+#link{
+    font-size: x-large;
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+#link :hover{
+    color: hsl(35, 77%, 62%);
+}
+.more{
+    color: hsl(233, 8%, 79%);
+}
+.hydrogen{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.artistry{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.VC{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.div3{
+    width: 1300px;
+    margin-top: 80px;
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    /* gap: 85px; */
+}
+.categorie1{
+    display: flex;
+    /* background-color: blue; */
+}
+.categorie2{
+    display: flex;
+    margin-left: 95px;
+    /* background-color: blue; */
+}
+.categorie3{
+    display: flex;
+    margin-left: 42px;
+    /* background-color: blue; */
+}
+.Laptops{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+    /* background-color: red; */
+    width: 276px;
+}
+.number{
+    font-size: x-large;
+    color: hsl(233, 8%, 79%);
+    /* background-color: blue; */
+}
+.title{
+    /* background-color: green; */
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+.title :hover{
+    color: hsl(5, 85%, 63%);
+}
+.details{
+    /* background-color: yellow; */
+    display: flex;
+    color: hsl(236, 13%, 42%);
+}
+.img{
+    width: 118px;
+    height: auto;
+}
+h2{
+    margin: 0px;
+}
