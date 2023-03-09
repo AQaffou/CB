@@ -6,8 +6,10 @@
     margin-bottom: 110px;
     margin-top: 60px;
     font-family: 'Inter', sans-serif;
+    /* background-color: red; */
 }
 .div1{
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
@@ -20,16 +22,16 @@
     padding-top: 10px;
 }
 .Home{
-    margin-right: 30px;
+    margin-right: 67px;
 }
 .New{
-    margin-right: 30px;
+    margin-right: 67px;
 }
 .Popular{
-    margin-right: 30px;
+    margin-right: 67px;
 }
 .Trending{
-    margin-right: 30px;
+    margin-right: 67px;
 }
 #txt{
     text-decoration: none;
@@ -45,27 +47,31 @@
 .div21{
     display: flex;
     flex-direction: column;
-    width: 953px;
+    width: 1240px;
+    /* background-color: red; */
 }
 .texte{
     display: flex;
+    gap: 100px;
 }
 .question{
-    width: 45%;
-    font-size: xx-large;
+    margin-top: 30px;
+    width: 40%;
+    font-size: 45px;
     /* background-color: green; */
 }
 .description{
-    margin-left: 90px;
-    width: 20%;
+    width: 40%;
     display: flex;
+    padding-top: 40px;
     flex-direction: column;
     flex-grow: 1;
     /* background-color: aqua; */
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .texte_description{
-    font-size: 22px;
+    line-height: 1.6;
+    font-size: 28px;
     color: hsl(236, 13%, 42%);
 }
 #button{
@@ -75,11 +81,11 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 7px;
-    letter-spacing: 5px;
+    gap: 10px;
+    letter-spacing: 7px;
     border-radius: 0px;
-    width: 225px;
-    height: 50px;
+    width: 300px;
+    height: 75px;
     object-fit: cover;
     border-color: white;
     background-color: hsl(5, 85%, 63%);
@@ -92,14 +98,18 @@
 .div22{
     display: flex;
     flex-direction: column;
-    margin-left: 35px;
+    padding-top: 50px;
+    margin-left: 45px;
     background-color: hsl(240, 100%, 5%);
     font-family: 'Inter', sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .new{
-    color: hsl(35, 77%, 62%);  
-    font-size: large;
-    padding-left: 20px;
+    height: 12%;
+    color: hsl(35, 77%, 62%);
+    font-size: xx-large;
+    /* background-color: red; */
 }
 #link{
     font-size: x-large;
@@ -109,30 +119,51 @@
 #link :hover{
     color: hsl(35, 77%, 62%);
 }
+.title1{
+    /* background-color: blueviolet; */
+}
 .more{
     color: hsl(233, 8%, 79%);
+    font-size: 22px;
+    line-height: 2;
+    width: 423px;
+    /* background-color: gray; */
 }
 .hydrogen{
     display: flex;
+    height: 25%;
+    justify-content: space-evenly;
     flex-direction: column;
-    padding-left: 20px;
+    border-bottom-style: ridge;
+    border-color: hsl(236, 13%, 42%);
+    padding-bottom: 10px;
+    /* background-color: green; */
 }
 .artistry{
+    height: 25%;
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
-    padding-left: 20px;
+    border-bottom-style: ridge;
+    border-color: hsl(236, 13%, 42%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* background-color: red; */
 }
 .VC{
+    height: 25%;
+    /* background-color: blue; */
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
-    padding-left: 20px;
+    padding-top: 10px;
 }
 .div3{
-    width: 1300px;
+    width: 1800px;
     margin-top: 80px;
     display: flex;
     /* background-color: red; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* gap: 85px; */
 }
 .categorie1{
@@ -141,24 +172,24 @@
 }
 .categorie2{
     display: flex;
-    margin-left: 95px;
+    margin-left: 63px;
     /* background-color: blue; */
 }
 .categorie3{
     display: flex;
-    margin-left: 42px;
+    margin-left: 163px;
     /* background-color: blue; */
 }
 .Laptops{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 30px;
     /* background-color: red; */
-    width: 276px;
+    width: 350px;
 }
 .number{
-    font-size: x-large;
+    font-size: xx-large;
     color: hsl(233, 8%, 79%);
     /* background-color: blue; */
 }
@@ -167,6 +198,7 @@
     display: flex;
     color: black;
     text-decoration: none;
+    width: 310px;
 }
 .title :hover{
     color: hsl(5, 85%, 63%);
@@ -174,12 +206,35 @@
 .details{
     /* background-color: yellow; */
     display: flex;
+    width: 300px;
+    font-size: 20px;
     color: hsl(236, 13%, 42%);
+    line-height: 1.6;
+
 }
 .img{
-    width: 118px;
+    width: 154px;
     height: auto;
 }
-h2{
+.h2{
     margin: 0px;
+    font-size: 50px;
+}
+.h2_title{
+    margin: 0px;
+    font-size: 26px;
+}
+h5{
+    margin: 0px;
+    font-size: 30px;
+}
+h1{
+    margin: 0px;
+}
+p{
+    letter-spacing: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    /* background-color: red; */
 }
